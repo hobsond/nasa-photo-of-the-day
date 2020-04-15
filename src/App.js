@@ -1,5 +1,9 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
+
 import "./App.css";
+
+const api_key = 'b736TNVJbkE3uVShRbMJhjc8hpqbmuVcN9sG2zeY'
+const apiUrl= 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=10&page=0&api_key='
 
 function App() {
   return (
