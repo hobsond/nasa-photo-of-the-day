@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import axios from 'axios'
+import "./css/index.css";
 import App from "./App";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(<App />, document.getElementById("root"));

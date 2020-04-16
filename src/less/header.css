@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+header img {
+  border-radius: 50%;
+  width: 9%;
+}
+header h1 {
+  color: blanchedalmond;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+header a {
+  margin: 0 4%;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
