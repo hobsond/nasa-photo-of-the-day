@@ -20,9 +20,9 @@ function App() {
       < Header/>
       < Nav />
       <div id='main-container'>
-        {/* <Articles /> */}
+        <Articles />
         <Main />
-        {/* <News/> */}
+        <News/>
         
       </div>
       

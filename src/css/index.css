@@ -30,7 +30,6 @@ header a {
 }
 .main {
   margin: 0 auto;
-  width: 60%;
   background-color: black;
   text-emphasis: center;
 }
@@ -57,6 +56,11 @@ header a {
   margin: 0 auto;
   text-align: center;
   width: 45%;
+}
+.article-container {
+  width: 20%;
+  height: 100%;
+  background-color: brown;
 }
 * {
   max-width: 100%;
