@@ -1,16 +1,22 @@
 import React from 'react'
+import styled from 'styled-components'
+import * as strap from 'reactstrap'
+
+const sDiv = styled.div ` 
+    background:blue;
+    color:white;
+
+` 
+
 
 export default function Header() {
     return (
-        <header>
-            <img src='https://www.nicepng.com/png/full/17-179497_azsgc-logos-nasa-logo-white-png.png'/>
-            <h1>That Time On Mars</h1>
-            <div id='linksContainer'>
-                <a href='#'>Github</a>
-                <a href='#'>Github</a>
-                <a href='#'>Github</a>
-            </div>
-        </header>
+        <sDiv>
+
+            <strap.NavbarBrand >
+                <h1  >That One Crazy Time on Mars</h1>
+            </strap.NavbarBrand>
+        </sDiv>
 
     )
 }

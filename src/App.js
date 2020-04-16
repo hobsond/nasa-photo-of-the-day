@@ -5,7 +5,7 @@ import Main from './components/Main'
 import News from './components/News'
 import Articles from './components/Articles'
 import Photos from './components/Photos'
-
+import * as strap from 'reactstrap'
 
 
 
@@ -18,11 +18,16 @@ function App() {
   return (
     <div className="App">
       < Header/>
+      
+      <strap.Jumbotron className='text-center'>
+        <strap.Button color='primary'> Do You Like My Site</strap.Button>
+      </strap.Jumbotron>
+
       < Nav />
       <div id='main-container'>
-        <Articles />
+      
         <Main />
-        <News/>
+        
         
       </div>
       
